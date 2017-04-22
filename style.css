@@ -1,0 +1,303 @@
+header {
+	background-color: #fff;
+	border-bottom-color: grey;
+	width: 100%;
+	height: 68px;
+}
+
+.logo {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color:#fff;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	padding: 24px 10px;
+	margin: 0 100px;
+}
+
+.aboutlink, .portfoliolink, .contactlink {
+	padding: 10px 10px;
+	margin-top: 15px;
+	float: left;
+
+}
+
+.aboutlink {
+	margin-left: 515px;
+	padding-right: 10px;
+	border-right: solid grey 1px;
+}
+
+.portfoliolink {
+	padding-right: 10px;
+	border-right: solid grey 1px;
+}
+
+.contactlink {
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a {
+	color: grey;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("assets/images/background.png");
+	line-height: 20px;
+}
+
+hr {
+	border-top: 2px solid lightgrey;	
+}
+#about{
+	float: left;
+	width: 650px;
+	background-color: #fff;
+	padding: 25px;
+	margin: 50px 0 50px 100px;
+}
+
+#profilepic{
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#intro{
+	float:left;
+}
+
+.connect{
+	
+	float: left;
+	width:270px;
+	background-color: #fff;
+	padding: 25px;
+	margin-right: 100px;
+	margin-top: 50px;
+	float: right;
+}
+
+.h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0 0 15px 0;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+    margin: 0 auto;
+	background-color: #666;
+	border-top-width: 6px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+
+#contactcontent {
+	float: left;
+	width: 650px;
+	background-color: #fff;
+	padding: 25px;
+	margin: 50px 0 50px 100px;
+}
+
+button {
+	background-color: #4aaaa5;
+	padding: 10px 20px;
+	color: white;
+	border: white;
+}
+
+#msg {
+	height: 500px
+	width: 300px;
+	resize: auto;
+	overflow: auto;
+}
+
+#portfoliocontent {
+	float: left;
+	width: 650px;
+	background-color: #fff;
+	padding: 25px;
+	margin: 50px 0 50px 100px;
+}
+
+
+.img {
+	position: relative;
+}
+
+h2 {
+	background-color: #4aaaa5;
+	padding: 15px 5px;
+	position: absolute;
+	top: 295px;
+	left: 125px;
+	width: 24.55%;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 980px) {
+
+	.aboutlink {
+		margin-left: 250px;
+	}
+
+	#about {
+		width: 400px;
+	}
+
+	.connect {
+		width: 250px;
+	}
+
+	#profilepic {
+		width: 360px;
+		height: auto;
+		margin-left: 20px;
+	}
+
+	#intro-2 {
+		clear: both;
+	}
+
+	#portfoliocontent {
+		width: 450px;
+		margin-left: 50px;
+	}
+
+	h2 {
+		top: 280px;
+		left: 75px;
+		width: 215px;
+	}
+
+	#contactcontent {
+	width: 400px;
+	}
+
+@media screen and (max-width: 768px) {
+
+	.aboutlink {
+		margin-left: 150px;
+	}
+
+	#about {
+		margin-right: 50px;
+		margin-left: 50px;
+		width: auto;
+	}
+
+	#profilepic {
+		width: 250px;
+		height: auto;
+		margin-left: 0;
+		
+	}
+
+	#intro-2 {
+		display: inline;
+		line-height: 1.5em;
+	}
+
+	.connect {
+		margin: 0px 50px 50px 50px;
+		width: 620px;
+	}
+
+	#portfoliocontent {
+		width: 620px;
+		margin-left: 50px;
+	}
+
+	h2 {
+		top: 300px;
+		left: 75px;
+		width: 299px;
+	}
+
+	#contactcontent {
+	width: 620px;
+	margin-left: 50px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.logo {
+		width: 640px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	header {
+		height: 135px;
+		width: 100%;
+	}
+
+	.aboutlink {
+		clear: both;
+		margin-left: 20px;
+		padding-right: 0px;
+	}
+
+	.portfoliolink {
+		padding-right: 0px;
+	}
+
+	.contactlink {
+
+	}
+
+	.aboutlink, .portfoliolink, .contactlink {
+		width: 150px;
+		padding: 10px 20px;
+		text-align: center;
+	}
+
+	.connect {
+		margin: 0px 50px 50px 50px;
+		width: 490px;
+	}
+
+	#portfoliocontent {
+		width: 490px;
+		margin-left: 50px;
+	}
+
+	h2 {
+		top: 335px;
+		left: 75px;
+		width: 235px;
+	}
+
+	#contactcontent {
+		width: 490px;
+		margin-left: 50px;
+	}
+
+
+
+
+
+
+
+}
+
